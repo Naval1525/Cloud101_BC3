@@ -3,6 +3,7 @@ import { Cloud, Check, Star, Calendar, Clock, MapPin, ChevronRight, Users, Troph
 import Footer from './Footer';
 import axios from 'axios';
 import RegistrationForm from './RegistrationForm';
+import GoogleFormEmbed from './GoogleFormEmbed';
 
 const CloudTechSession = () => {
     const [formData, setFormData] = useState({ name: '', email: '' });
@@ -257,6 +258,7 @@ const CloudTechSession = () => {
           </div>
         )}
       </div> */}
+      {/* <GoogleFormEmbed></GoogleFormEmbed> */}
       <RegistrationForm></RegistrationForm>
 
 
